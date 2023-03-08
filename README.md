@@ -14,7 +14,6 @@ Most of the code is written in Python 3.11.2 and all of its dependencies can be 
 ```
 pip install -r requirements.txt
 ```
-
 ## Data
 
 1. Alumni Data: This dataset contains pre-processed information about alumni's past job experiences in three columns - company, position, and job description. The dataset has been created by scraping and verifying data using Python, Selenium, Google API, and LinkedIn. Each observation in the dataset has been assigned an industry type out of ten pre-designed categories, including Business/Finance, Charity/Volunteering, Consulting, Education/Research, Healthcare, Human Resources, Law, Policy/Government/Social Work, Technology, and Others. The purpose of the dataset is to test classifiers and evaluate their performance.
