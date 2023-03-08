@@ -14,3 +14,8 @@ Most of the code is written in Python 3.11.2 and all of its dependencies can be 
 ```
 pip install -r requirements.txt
 ```
+## Content
+1. `cleanup.ipynb`[https://github.com/LynetteDang/final-project-comp-ling/blob/main/cleanup.ipynb] and `text_processing.ipynb`[https://github.com/LynetteDang/final-project-comp-ling/blob/main/text_processing.ipynb]: clean up the messy and unstructured scraped result from Linkedin, group each observation into education or experience, sort data into attributes such as position, company, and description
+2. `cleanup.ipynb`[https://github.com/LynetteDang/final-project-comp-ling/blob/main/cleanup.ipynb]: clean up the messy and unstructured scraped result from Linkedin, group each observation into education or experience
+3. `TestEmailModule` for the email submission utility class `SendGridEmail`. 
+4.  a `data` folder that contains a list of test data, including multiple pdf attachments for email submissions and a json file with coordinates for reverse geocoder. 
